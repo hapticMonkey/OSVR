@@ -27,10 +27,10 @@ To install one of them, run (for example):
 <hr>
 The reason is that the location of the opencv has moved.  We need to install it first before installing OSVR.  Do not install opencv3.  OSVR requires opencv2. Perform the install in this order (be prepared to wait a very long time as each dependancy is downloaded and installed):
 <code>
-brew tap homebrew/science
+brew tap homebrew/science<br>
 brew install opencv
-
-brew tap OSVR/osvr
+<br><br>
+brew tap OSVR/osvr<br>
 brew install osvr-core --HEAD
 </code>
 It is now installed.  You can ignore the compiler warnings.
@@ -50,7 +50,7 @@ The OSVR-Tracker-Viewer installer for Homebrew does not work because the code fo
 Steps: From the terminal run the following
 <code>
 brew install https://raw.github.com/domoritz/homebrew/master/Library/Formula/open-scene-graph.rb -v
-
+<br><br>
 brew install --HEAD https://raw.githubusercontent.com/hapticMonkey/OSVR/master/osvr-tracker-viewer.rb -v
 </code>
 It is now installed, again ignore the compiler warnings.
