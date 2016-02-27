@@ -54,7 +54,7 @@ Steps: From the terminal run the following
 
 brew install https://raw.github.com/domoritz/homebrew/master/Library/Formula/open-scene-graph.rb -v
 
-brew install --HEAD https://raw.githubusercontent.com/hapticMonkey/OSVR/master/osvr-tracker-viewer.rb
+brew install --HEAD https://raw.githubusercontent.com/hapticMonkey/OSVR/master/osvr-tracker-viewer.rb -v
 
 It is now installed, again ignore the compiler warnings.
 
