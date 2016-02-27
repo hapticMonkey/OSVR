@@ -11,7 +11,7 @@ Type (or copy/paste) the following in the terminal, (It will ask you for your ad
 <code>
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 </code>
-<h3>Install OSVR</hr>
+<h3>Install OSVR</h3>
 If you follow the instructions from the OSVR Installation Instructions it tells you to install OSVR from Homebrew but it will fail with the following error:
 <hr>
 <code>bash-3.2$ brew install osvr-core --HEAD
