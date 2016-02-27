@@ -12,7 +12,7 @@ Type (or copy/paste) the following in the terminal, (It will ask you for your ad
 
 If you follow the instructions from the OSVR Installation Instructions it tells you to install OSVR from Homebrew but it will fail with the following error:
 
-############################################
+========================================
 
 bash-3.2$ brew install osvr-core --HEAD
 ==> Installing osvr-core from osvr/osvr
@@ -25,7 +25,7 @@ homebrew/science/opencv                  homebrew/science/opencv3
 To install one of them, run (for example):
   brew install homebrew/science/opencv
 
-############################################
+========================================
 
 The reason is that the location of the opencv has moved.  We need to install it first before installing OSVR.  Do ont install opencv3.  OSVR requires opencv2. Perform the install in this order (be prepared to wait a very long time as each dependancy is downloaded and installed):
 
