@@ -27,7 +27,7 @@ To install one of them, run (for example):
 
 ========================================
 
-The reason is that the location of the opencv has moved.  We need to install it first before installing OSVR.  Do ont install opencv3.  OSVR requires opencv2. Perform the install in this order (be prepared to wait a very long time as each dependancy is downloaded and installed):
+The reason is that the location of the opencv has moved.  We need to install it first before installing OSVR.  Do not install opencv3.  OSVR requires opencv2. Perform the install in this order (be prepared to wait a very long time as each dependancy is downloaded and installed):
 
 brew tap homebrew/science
 brew install opencv
