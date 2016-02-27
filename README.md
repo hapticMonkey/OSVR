@@ -35,27 +35,27 @@ brew install osvr-core --HEAD
 </code>
 It is now installed.  You can ignore the compiler warnings.
 
-You will need to locate the default osvr_server_config.json file and overwrite it in the default location.  If you need to make any custome changes to the file this where you should put it.
+You will need to locate the default osvr_server_config.json file and overwrite it in the default location.  If you need to make any custome changes to the file this where you should put it.<p>
 <code>
 /usr/local/Cellar/osvr-core/HEAD/share/osvrcore/osvr_server_config.json
-</code>
-To run OSVR:
+</code><p>
+To run OSVR:<br>
 <code>
 /usr/local/Cellar/osvr-core/HEAD/bin/osvr_server /usr/local/Cellar/osvr-core/HEAD/share/osvrcore/osvr_server_config.json
-</code>
+</code><p>
 
 <h3>Installing osvr_viewer</h3>
 The OSVR-Tracker-Viewer installer for Homebrew does not work because the code for open-scene-graph is upstream incompatible.  To install OSVR-Tracker-Viewer you have to run a separate install for open-scene-graph and then this Homebrew installer.
 
-Steps: From the terminal run the following
+Steps ~ From the terminal run the following:<p>
 <code>
 brew install https://raw.github.com/domoritz/homebrew/master/Library/Formula/open-scene-graph.rb -v
-<br><br>
+<p>
 brew install --HEAD https://raw.githubusercontent.com/hapticMonkey/OSVR/master/osvr-tracker-viewer.rb -v
 </code>
 It is now installed, again ignore the compiler warnings.
 
-To run the OSVR Tracker Viewer:
+To run the OSVR Tracker Viewer:<br>
 <code>
 /usr/local/Cellar/osvr-tracker-viewer/HEAD/OSVRTrackerView
 </code>
