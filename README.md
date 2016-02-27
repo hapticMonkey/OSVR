@@ -2,7 +2,7 @@
 
 OSVR Does not install properly on Yosemite under Homebrew.
 
-I performed the following to get OSVR and the OSVR Viewer installed under Unity
+I performed the following to get OSVR and the OSVR Viewer installed under Yosemite on a Mac Mini.
 
 From the Apple menu choose Go->Utilities->Terminal
 
