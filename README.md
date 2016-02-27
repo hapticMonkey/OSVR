@@ -7,7 +7,7 @@ I performed the following to get OSVR and the OSVR Viewer installed under Yosemi
 From the Apple menu choose Go->Utilities->Terminal
 
 <h3>Install Homebrew if you don't already have it installed</h3>
-Type (or copy/paste) the following in the terminal, (It will ask you for your admin password): 
+Type (or copy/paste) the following in the terminal, (It will ask you for your admin password): <p>
 <code>
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 </code>
@@ -32,7 +32,7 @@ brew install opencv
 <br><br>
 brew tap OSVR/osvr<br>
 brew install osvr-core --HEAD
-</code>
+</code><p>
 It is now installed.  You can ignore the compiler warnings.
 
 You will need to locate the default osvr_server_config.json file and overwrite it in the default location.  If you need to make any custome changes to the file this where you should put it.<p>
