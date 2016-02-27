@@ -1,4 +1,5 @@
 # OSVR
+Follow us at http://www.hapticmonkey.org
 
 OSVR Does not install properly on Yosemite under Homebrew.
 
@@ -58,4 +59,5 @@ It is now installed, again ignore the compiler warnings.
 To run the OSVR Tracker Viewer:<p>
 <code>
 /usr/local/Cellar/osvr-tracker-viewer/HEAD/OSVRTrackerView
-</code>
+</code><p>
+Follow us at http://www.hapticmonkey.org
