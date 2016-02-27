@@ -52,10 +52,10 @@ Steps ~ From the terminal run the following:<p>
 brew install https://raw.github.com/domoritz/homebrew/master/Library/Formula/open-scene-graph.rb -v
 <p>
 brew install --HEAD https://raw.githubusercontent.com/hapticMonkey/OSVR/master/osvr-tracker-viewer.rb -v
-</code>
+</code><p>
 It is now installed, again ignore the compiler warnings.
 
-To run the OSVR Tracker Viewer:<br>
+To run the OSVR Tracker Viewer:<p>
 <code>
 /usr/local/Cellar/osvr-tracker-viewer/HEAD/OSVRTrackerView
 </code>
